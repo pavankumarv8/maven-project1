@@ -122,6 +122,17 @@ http://maven.apache.org/maven-v4_0_0.xsd">
 	        <version>2.5.3</version>
         </plugin>
         <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>org.sonatype.mavenbook.App</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+        <plugin>
 			<artifactId>maven-assembly-plugin</artifactId>
 			<configuration>
 				<descriptorRefs>
