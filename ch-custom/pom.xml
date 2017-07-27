@@ -6,7 +6,7 @@ http://maven.apache.org/maven-v4_0_0.xsd">
 <groupId>org.sonatype.mavenbook.custom</groupId>
 <artifactId>simple-weather</artifactId>
 <packaging>jar</packaging>
-<version>1.0</version>
+<version>1.1</version>
 <name>simple-weather</name>
 <url>http://maven.apache.org</url>
 
