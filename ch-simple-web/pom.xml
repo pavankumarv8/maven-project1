@@ -7,7 +7,7 @@
   <groupId>org.sonatype.mavenbook.simpleweb</groupId>
   <artifactId>simple-webapp</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <packaging>pom</packaging>
   <name>Simple Web Chapter Parent Project</name>
   <url>http://maven.apache.org</url>
 
