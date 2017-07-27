@@ -51,8 +51,8 @@ http://maven.apache.org/maven-v4_0_0.xsd">
   </distributionManagement>
   
   <scm>
-        <connection>scm:git:https://github.com/reddymadhira111/maven-project.git</connection>
-        <developerConnection>scm:git:https://github.com/reddymadhira111/maven-project.git</developerConnection>
+        <connection>scm:git:https://github.com/reddymadhira111/maven-project1.git</connection>
+        <developerConnection>scm:git:https://github.com/reddymadhira111/maven-project1.git</developerConnection>
       <tag>HEAD</tag>
   </scm>
 
