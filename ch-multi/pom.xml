@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.sonatype.mavenbook.multi</groupId>
   <artifactId>simple-parent</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>0.8-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Multi Chapter Parent Project</name>
 
@@ -26,7 +26,7 @@
         <developerConnection>scm:git:https://github.com/reddymadhira111/maven-project1.git</developerConnection>
       <tag>HEAD</tag>
   </scm>
-  
+
 <build>
   <pluginManagement>
     <plugins>
