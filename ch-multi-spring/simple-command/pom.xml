@@ -7,13 +7,31 @@
   <parent>
     <groupId>org.sonatype.mavenbook.multispring</groupId>
     <artifactId>simple-parent</artifactId>
-    <version>0.8-SNAPSHOT</version>
+    <version>0.8</version>
   </parent>
 
   <artifactId>simple-command</artifactId>
   <packaging>jar</packaging>
   <name>Multi-Spring Chapter Simple Command Line Tool</name>
 
+  <distributionManagement>
+    <repository>
+    <id>releases</id>
+    <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+    <id>snapshots</id>
+    <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  
+  <scm>
+        <connection>scm:git:https://github.com/reddymadhira111/maven-project1.git</connection>
+        <developerConnection>scm:git:https://github.com/reddymadhira111/maven-project1.git</developerConnection>
+      <tag>HEAD</tag>
+  </scm>
+  
+  
   <build>
     <finalName>${project.artifactId}</finalName>
     <plugins>
