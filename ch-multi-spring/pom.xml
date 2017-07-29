@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+                             http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+	<groupId>org.sonatype.mavenbook.multispring</groupId>
+	<version>0.8-SNAPSHOT</version>
+  <artifactId>simple-parent</artifactId>
+  <packaging>pom</packaging>
+  <name>Multi-Spring Chapter Simple Parent Project</name>
+ 
+ <distributionManagement>
+    <repository>
+    <id>releases</id>
+    <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+    <id>snapshots</id>
+    <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  
+  <scm>
+        <connection>scm:git:https://github.com/reddymadhira111/maven-project1.git</connection>
+        <developerConnection>scm:git:https://github.com/reddymadhira111/maven-project1.git</developerConnection>
+      <tag>HEAD</tag>
+  </scm>
+  
+  <modules>
+    <module>simple-command</module>
+    <module>simple-model</module>
+    <module>simple-weather</module>
+    <module>simple-persist</module>
+    <module>simple-webapp</module>
+  </modules>
+
+  <build>
+    <pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.5</source>
+          <target>1.5</target>
+        </configuration>
+      </plugin>
+    </plugins>
+    </pluginManagement>
+  </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
