@@ -7,7 +7,7 @@
   <parent>
     <groupId>org.sonatype.mavenbook.multispring</groupId>
     <artifactId>simple-parent</artifactId>
-    <version>0.9</version>
+    <version>0.9-SNAPSHOT</version>
   </parent>
   <artifactId>simple-model</artifactId>
   <packaging>jar</packaging>
@@ -49,4 +49,14 @@
       </exclusions>
     </dependency>
   </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.5.3</version>
+      </plugin>
+    </plugins>
+  </build>
 </project>
