@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="org.sonatype.mavenbook.weather.yahoo.YahooParserTest" time="0.347" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="org.sonatype.mavenbook.weather.yahoo.YahooParserTest" time="0.385" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
     <property name="java.vm.version" value="25.131-b11"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Program Files (x86)\Jenkins\workspace\multi_spring"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\reddy\Desktop\DevOps\Maven\maven-project1\ch-multi-spring"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Program Files (x86)\Jenkins\workspace\multi_spring"/>
+    <property name="user.dir" value="C:\Users\reddy\Desktop\DevOps\Maven\maven-project1\ch-multi-spring"/>
     <property name="java.runtime.version" value="1.8.0_131-b11"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
@@ -34,6 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="C:\Users\reddy\.m2\repository"/>
     <property name="os.version" value="10.0"/>
     <property name="library.jansi.path" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\maven3\bin\..\lib\jansi-native\windows64"/>
     <property name="user.home" value="C:\Users\reddy"/>
@@ -46,7 +47,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f C:\Users\reddy\Desktop\DevOps\Maven\maven-project1\ch-multi-spring\pom.xml deploy"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -D maven.repo.local=C:\Users\reddy\.m2\repository -s C:\Users\reddy\AppData\Local\Temp\release-settings4372638326468504883.xml clean verify"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -63,5 +64,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.sonatype.mavenbook.weather.yahoo.YahooParserTest" name="testParser" time="0.347"/>
+  <testcase classname="org.sonatype.mavenbook.weather.yahoo.YahooParserTest" name="testParser" time="0.385"/>
 </testsuite>
