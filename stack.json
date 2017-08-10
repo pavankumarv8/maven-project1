@@ -67,10 +67,14 @@
                                                         "sudo cd /tmp\n",
 							"sudo echo 'Downloading the rpm'\n",
 <<<<<<< HEAD
+<<<<<<< HEAD
 							"sudo wget https://s3-us-west-1.amazonaws.com/lingaci/chef-13.2.20-1.el7.x86_64.rpm\n",
 =======
 							"sudo wget https://s3-us-west-1.amazonaws.com/lingaci/chefdk_2.0.28-1_amd64+(1).deb\n",
 >>>>>>> c0934e62e9392856fd15f4bbc0e50bac445ea9aa
+=======
+							"sudo wget https://s3-us-west-1.amazonaws.com/lingaci/chef-13.2.20-1.el7.x86_64.rpm\n",
+>>>>>>> 53eed848c7135ace95256c7bd9b5d177048004e7
 							"sudo rpm -ivh *.rpm\n",
 							"sudo mkdir /etc/chef\n",
 							"cd /etc/chef\n",
