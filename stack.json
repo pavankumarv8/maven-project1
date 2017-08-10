@@ -66,7 +66,7 @@
 							"sudo sed -i \"s#Defaults.*requiretty#Defaults\\!requiretty#g\" /etc/sudoers\n",
                                                         "sudo cd /tmp\n",
 							"sudo echo 'Downloading the rpm'\n",
-							"sudo wget https://s3-us-west-1.amazonaws.com/lingaci/chef_13.2.20-1_amd64.deb\n",
+							"sudo wget https://s3-us-west-1.amazonaws.com/lingaci/chef-13.2.20-1.el7.x86_64.rpm\n",
 							"sudo rpm -ivh *.rpm\n",
 							"sudo mkdir /etc/chef\n",
 							"cd /etc/chef\n",
@@ -76,7 +76,7 @@
 							"sudo chmod 400 reddymadhira.pem\n",
 							"sudo chef-client -o recipe[test::docs_example]\n",
 							"cd /opt/tomcat_docs/webapps\n",
-							"sudo wget http://52.53.130.206:8081/nexus/content/repositories/releases/org/sonatype/mavenbook/simpleweb/simple-webapp/1.2/simple-webapp-1.2.war\n",
+							"sudo wget http://54.183.156.68:8081/nexus/content/repositories/releases/org/sonatype/mavenbook/simpleweb/simple-webapp/1.2/simple-webapp-1.2.war\n",
 							"sudo service tomcat_docs restart\n",
 							"/opt/aws/bin/cfn-signal -e 0 -r \"ChefClient setup complete\" '", {
 							"Ref": "WaitHandle"
